@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 70%;
+            margin: 20px auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .photo {
+            background-color: #aaa;
+            border: 1px solid #999;
+            color: #444;
+            text-align: center;
+            font-weight: bold;
+            font-size: 48px;
+            padding: 100px 40px;
+            margin: 0 20px 20px 0;
+            width: 200px;
+            float: left;
+        }
+        /* .clear {
+            clear: both;
+        } */
+        .clearfix::before,
+        .clearfix::after {
+            content: '';
+            display: block;
+        }
+        .clearfix::after{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our team</h1>
+    <div class="clearfix">
+        <div class="photo">Photo 1</div>
+        <h2>Michael Florry</h2>
+        <h3>CEO</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+    </div>
+    <!-- <div class="clear"></div> лучше юзать этот, он проще -->
+    <div class="clearfix">
+        <h1>our team</h1>
+        <div class="photo">Photo 2</div>
+        <h2>Michael Florry</h2>
+        <h3>manager</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+    </div>
+   <!--  <div class="clear"></div> -->
+   <div class="clearfix">
+        <h1>our team</h1>
+        <div class="photo">Photo 3</div>
+        <h2>Michael Florry</h2>
+        <h3>director</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+    </div>
+   <!--  <div class="clear"></div> -->
+    <div class="clearfix">
+        <h1>our team</h1>
+        <div class="photo">Photo 4</div>
+        <h2>Michael Florry</h2>
+        <h3>CEO</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quaerat fugiat, inventore dignissimos dolorem laborum dolores eum atque libero rem eaque ea, alias dolor. Laborum praesentium voluptas nisi sint alias!</p>
+    </div>
+
+
+</body>
+</html>

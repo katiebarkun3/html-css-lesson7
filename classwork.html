@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson7</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                width: 100%;
+                margin: 0;
+            }
+            .orange {
+                background-color: rgb(255, 98, 0);
+                padding: 10%;
+                text-align: center;
+            }
+            .whiteh1{
+                color: white;
+            }
+            .parleft {
+                width: 50%;
+                float: left;
+                overflow: auto;
+            }
+            .parright {
+                width: 50%;
+                float: left;
+                overflow: auto;
+            }
+            .par2 {
+                padding: 40px;
+            }
+            .youtube {
+                font-size: 60px;
+                background-color: red;
+                color: white;
+                line-height: 60px;
+                display: block;
+                border-radius: 10px;
+                float:right;
+                width: 90px;
+                text-align: center;
+            }
+            .orangeblock{
+            width: 20%; 
+            padding-right: 20px;  
+            padding-bottom: 10px; 
+            background-color: rgb(255, 98, 0); 
+            border: 3px solid #999;
+            border-top-right-radius: 20px;
+            float: left;
+            text-align: center;
+            margin-right: 20px;
+            }
+            .redblock{
+            width: 20%; 
+            padding-right: 20px;  
+            padding-bottom: 10px;   
+            background-color: red; 
+            border: 3px solid #999;
+            border-top-right-radius: 20px;
+            float: left;
+            text-align: center;
+            }
+            .clear {
+                clear: both;
+            }
+            .yellowel{
+                background-color: yellow;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                text-align: left;
+
+            }
+
+        </style>
+
+
+
+</head>
+<body>
+    <div class="orange">
+        <h1>Sample Page</h1>
+        <h1 class="whiteh1">with CSS Box model</h1>
+        <p>for students</p>
+    </div>
+    <div class="par2">
+        <div class="parleft">
+            <h2>About us</h2>
+            <span class="youtube">&#9656;</span>     
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat provident dolorum quam, quaerat neque molestias dolore iure quasi aliquid est, culpa omnis exercitationem unde in quisquam reprehenderit ex vero adipisci.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum dolore ut accusamus maxime reiciendis molestias suscipit cupiditate enim possimus commodi, ullam vero incidunt atque. Placeat alias quam aliquid? Earum, perspiciatis?</p>
+        </div>
+        <div class="parright">
+            <h2>Our mission</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat provident dolorum quam, quaerat neque molestias dolore iure quasi aliquid est, culpa omnis exercitationem unde in quisquam reprehenderit ex vero adipisci.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum dolore ut accusamus maxime reiciendis molestias suscipit cupiditate enim possimus commodi, ullam vero incidunt atque. Placeat alias quam aliquid? Earum, perspiciatis?</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="orangeblock">
+        <h3 class="yellowel">TOP SALES</h3>
+        <h2>The Web Developer</h2>
+    </div>
+    <div class="redblock">
+        <h3 class="yellowel">NEW!</h3>
+        <h2>JavaScript Developer</h2>
+    </div>
+</body>
+</html>
